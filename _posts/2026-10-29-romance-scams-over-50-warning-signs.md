@@ -1,8 +1,8 @@
 ---
 title: "Romance Scams After 50: Warning Signs and What to Do"
 description: "Romance fraud cost UK victims over £102 million last year, and people aged 55 to 74 lost the most. The warning signs, and what to do if it happens."
-date: 2026-10-29 12:00:00 +0000
-last_modified_at: 2026-10-29 12:00:00 +0000
+date: 2026-10-29 10:00:00 +0000
+last_modified_at: 2026-10-29 10:00:00 +0000
 template: default
 tags: [Safety, Scams]
 image: https://images.unsplash.com/photo-1774898989484-0b9becf69efb?w=1600&q=75&fm=jpg&fit=crop

@@ -1,8 +1,8 @@
 ---
 title: "Is OurTime UK Worth It? An Honest Look for Over-50s"
 description: "OurTime UK is built for over-50s, but you can't message for free and its reviews are poor. Here's who it suits, what it costs and what to watch for."
-date: 2026-10-29 09:00:00 +0000
-last_modified_at: 2026-10-29 09:00:00 +0000
+date: 2026-10-29 13:00:00 +0000
+last_modified_at: 2026-10-29 13:00:00 +0000
 template: default
 affiliate: ourtime
 tags: [OurTime, Reviews]

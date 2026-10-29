@@ -17,7 +17,7 @@ utm_source: later_love_uk
 affiliate:
   ourtime:
     name: OurTime UK
-    url: ""
+    url: "https://example.com/TEST-ONLY"
 
 # Axiom theme settings (mirrors the Ghost theme's custom settings)
 axiom:

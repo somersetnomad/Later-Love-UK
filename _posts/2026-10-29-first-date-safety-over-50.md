@@ -1,8 +1,8 @@
 ---
 title: "First Date Safety After 50: A Practical Checklist"
 description: "A first date after 50 should feel exciting, not risky. A practical checklist for before, during and after, plus Ask for Angela and Clare's Law."
-date: 2026-10-29 13:00:00 +0000
-last_modified_at: 2026-10-29 13:00:00 +0000
+date: 2026-10-29 09:00:00 +0000
+last_modified_at: 2026-10-29 09:00:00 +0000
 template: default
 tags: [Safety, First dates]
 image: https://images.unsplash.com/photo-1635956541203-4625130f761f?w=1600&q=75&fm=jpg&fit=crop

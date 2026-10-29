@@ -1,8 +1,8 @@
 ---
 title: "OurTime UK Cost in 2026, and How to Cancel"
 description: "OurTime UK costs £39.99 for one month or £19.99 a month over six. Here's every price, the cheapest way to try it, and how to cancel without being charged again."
-date: 2026-10-29 10:00:00 +0000
-last_modified_at: 2026-10-29 10:00:00 +0000
+date: 2026-10-29 12:00:00 +0000
+last_modified_at: 2026-10-29 12:00:00 +0000
 template: default
 affiliate: ourtime
 tags: [OurTime, Costs]
