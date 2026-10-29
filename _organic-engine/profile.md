@@ -32,5 +32,5 @@
 - [[NEEDED]] any personal or permitted second-hand experience of dating over 50
 
 ## Mode and schedule
-- Launch: 5 guides published at once so the site can be submitted to FlexOffers
-- After FlexOffers approval: weekly autopilot (to be set up), one post a week
+- Launch: 5 guides published 29 Oct 2026
+- AUTO weekly autopilot from Oct 2026: one post every Friday morning (scheduled task "Later Love UK weekly post"); process in RUNBOOK.md. Affiliate buttons stay hidden until the owner adds the FlexOffers link.
