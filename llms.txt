@@ -1,0 +1,14 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# Later Love UK
+
+> Independent, sourced guides for people dating over 50 in the UK: what dating sites such as OurTime UK, eharmony and Match really cost, how to cancel, and how to avoid romance scams and stay safe on first dates. Written by Bala Danmeri in Somerset. Some links are disclosed affiliate links.
+
+## Guides
+{% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}): {{ post.description }}
+{% endfor %}
+## About
+- [About]({{ '/about/' | absolute_url }}): who writes the site and how guides are researched
+- [Affiliate disclosure]({{ '/disclosure/' | absolute_url }}): how affiliate links work on this site

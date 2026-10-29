@@ -1,0 +1,72 @@
+title: Later Love UK
+tagline: Honest, sourced guides to dating over 50 in the UK
+description: Plain, sourced guides for people dating over 50 in the UK, from what dating sites really cost and how to cancel, to spotting romance scams and staying safe on first dates.
+url: https://somersetnomad.github.io
+baseurl: /Later-Love-UK
+lang: en-GB
+timezone: Europe/London
+
+author:
+  name: Bala Danmeri
+  url: https://somersetnomad.github.io/Later-Love-UK/about/
+
+utm_source: later_love_uk
+
+# Affiliate links. Leave a link empty ("") until FlexOffers approves you:
+# the buttons stay hidden until a link is set here.
+affiliate:
+  ourtime:
+    name: OurTime UK
+    url: ""
+
+# Axiom theme settings (mirrors the Ghost theme's custom settings)
+axiom:
+  color_scheme: System      # System, Light or Dark
+  sidebar_label: Field Notes
+  inertial_scroll: "on"     # on or off
+  field_density: Calm       # Calm, Balanced or Dense
+
+navigation:
+  - label: Guides
+    url: /
+  - label: Topics
+    url: /tags/
+  - label: About
+    url: /about/
+  - label: Disclosure
+    url: /disclosure/
+
+permalink: /:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  footnote_backlink: "↩"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  excerpt_only: false
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - assets/axiom/fonts/*-OFL.txt

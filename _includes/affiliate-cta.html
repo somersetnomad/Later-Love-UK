@@ -1,0 +1,19 @@
+{%- comment -%}
+  Affiliate call to action. Usage:
+  {% include affiliate-cta.html brand="ourtime" kicker="Next step // Try it" lead="..." button="..." %}
+  Renders nothing until site.affiliate[brand].url is set in _config.yml.
+{%- endcomment -%}
+{%- assign aff = site.affiliate[include.brand] -%}
+{%- if aff and aff.url != "" -%}
+<section class="interactive-module cta-module">
+  <div class="module-header">
+    <div class="module-title"><span>{{ include.kicker | default: "Next step" }}</span><span class="module-pill">Affiliate link</span></div>
+  </div>
+  <p>{{ include.lead }}</p>
+  <div class="cta-actions">
+    {%- capture default_button %}Visit {{ aff.name }}{% endcapture %}
+    <a class="cta-btn" href="{{ aff.url }}" rel="sponsored noopener">{{ include.button | default: default_button }}</a>
+  </div>
+  <p class="disclose">Affiliate link: if you sign up through it, {{ site.title }} may earn a commission. You pay the same either way. <a href="{{ '/disclosure/' | relative_url }}">Disclosure</a>.</p>
+</section>
+{%- endif -%}

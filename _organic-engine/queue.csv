@@ -1,0 +1,12 @@
+id,query,buyer_stage,ai_prompt,offer_fit,priority,status,url,published,last_checked
+1,is ourtime uk worth it,decision,"Is OurTime worth it for over 50s in the UK?",5,500,live,/is-ourtime-uk-worth-it/,2026-10-29,2026-10-29
+2,ourtime uk cost / cancel ourtime,decision,"How much does OurTime cost in the UK and how do I cancel?",5,400,live,/ourtime-uk-cost-and-how-to-cancel/,2026-10-29,2026-10-29
+3,ourtime vs eharmony vs match over 50,consideration,"Which is better for over 50s: OurTime, eharmony or Match?",4,320,live,/ourtime-vs-eharmony-vs-match-over-50/,2026-10-29,2026-10-29
+4,romance scams over 50 warning signs,awareness-safety,"How do I spot a romance scam on a dating site?",3,150,live,/romance-scams-over-50-warning-signs/,2026-10-29,2026-10-29
+5,first date safety over 50,awareness-safety,"How do I stay safe on a first date after 50?",3,150,live,/first-date-safety-over-50/,2026-10-29,2026-10-29
+6,is ourtime free / ourtime free trial,decision,"Can I use OurTime for free?",5,300,queued,,,2026-10-29
+7,ourtime app review uk,decision,"Is the OurTime app any good?",4,200,queued,,,2026-10-29
+8,how to write a dating profile over 50,consideration,"How do I write a good dating profile after 50?",4,160,queued,,,2026-10-29
+9,ourtime verified badge / photo verification,consideration,"How does OurTime verification work?",4,160,queued,,,2026-10-29
+10,dating over 50 rural uk,consideration,"How do I meet someone over 50 if I live in the countryside?",4,160,queued,,,2026-10-29
+11,ourtime vs silver singles uk,consideration,"OurTime or SilverSingles for over 50s in the UK?",4,160,queued,,,2026-10-29

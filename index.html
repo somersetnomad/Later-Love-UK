@@ -1,0 +1,41 @@
+---
+layout: default
+title: Dating over 50 in the UK, honestly
+description: Plain, sourced guides for people dating over 50 in the UK, from what dating sites really cost and how to cancel, to spotting romance scams and staying safe on first dates.
+---
+<div class="article-wrap landing">
+  <header class="masthead site-masthead landing-masthead">
+    <canvas class="field-canvas" data-field aria-hidden="true"></canvas>
+    <div class="masthead-meta-row">
+      <span>{{ site.title }} // {{ site.time | date: "%Y" }}</span>
+      <span>{{ site.posts.size }} {% if site.posts.size == 1 %}guide{% else %}guides{% endif %}</span>
+    </div>
+    <h1 class="monograph-h1 landing-title">{{ page.title }}</h1>
+    <p class="monograph-lead">What dating sites for over-50s really cost, how to cancel them, and how to stay safe, with every claim sourced and the downsides left in.</p>
+    <div class="field-readout" aria-hidden="true">
+      <span>LIVE FIELD</span>
+      <span data-field-count>— vectors</span>
+      <span class="bar"><i data-field-bar></i></span>
+      <span data-field-flux>flux 0.00</span>
+    </div>
+  </header>
+
+  <section class="gh-content landing-content">
+    <p>Most "best dating sites for over-50s" lists are written to sell you a subscription. These guides are written to help you decide. They show real prices, how renewals and cancellations work, what members complain about, and how to protect yourself from romance fraud, which costs people aged 55 to 74 more than any other age group.</p>
+    <p>I'm {{ site.author.name }}, and I write {{ site.title }} from Somerset. Some links are affiliate links; <a href="{{ '/disclosure/' | relative_url }}">here's how that works</a>.</p>
+  </section>
+
+  <section class="landing-latest" aria-label="Latest guides">
+    <div class="landing-latest-head">
+      <h2 class="landing-latest-title">Latest guides</h2>
+      <a class="landing-latest-all" href="{{ '/tags/' | relative_url }}">By topic <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="post-feed">
+      {%- for post in site.posts %}
+        {% include post-card.html %}
+      {%- else %}
+      <p class="feed-empty">Nothing published here yet.</p>
+      {%- endfor %}
+    </div>
+  </section>
+</div>

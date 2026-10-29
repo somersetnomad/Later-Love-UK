@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <div class="footer-disclosure">
+    <p>{{ site.title }} is written by {{ site.author.name }} in Somerset. It is independent and not owned by, or acting for, any dating service.</p>
+    <p>Some links are affiliate links: if you sign up through one, {{ site.title }} may earn a commission at no extra cost to you. It never changes what a guide says. <a href="{{ '/disclosure/' | relative_url }}">How that works</a>.</p>
+  </div>
+  <div class="site-footer-inner">
+    <span>{{ site.title }} &copy; {{ site.time | date: "%Y" }}</span>
+    <nav class="site-footer-nav" aria-label="Secondary">
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/disclosure/' | relative_url }}">Disclosure</a>
+      <a href="{{ '/tags/' | relative_url }}">Topics</a>
+      <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </nav>
+    <span>Photos via <a href="https://unsplash.com/?utm_source={{ site.utm_source }}&amp;utm_medium=referral">Unsplash</a></span>
+  </div>
+</footer>
