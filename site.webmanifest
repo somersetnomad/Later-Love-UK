@@ -1,0 +1,12 @@
+{
+  "name": "Later Love UK",
+  "short_name": "Later Love UK",
+  "start_url": "/Later-Love-UK/",
+  "display": "standalone",
+  "background_color": "#fcfcfb",
+  "theme_color": "#9b3d52",
+  "icons": [
+    { "src": "/Later-Love-UK/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/Later-Love-UK/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
